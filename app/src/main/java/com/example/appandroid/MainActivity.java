@@ -23,6 +23,7 @@ import com.karumi.dexter.listener.single.PermissionListener;
 import java.io.File;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import android.Manifest;
 
 import dalvik.system.DexClassLoader;
 
