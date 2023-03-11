@@ -22,6 +22,7 @@ import android.widget.TextView;
 import java.io.File;
 import java.util.ArrayList;
 
+
 public class PlayerActivity extends AppCompatActivity {
     Button btnplay, btnnext,btnprev, btnff, btnfr;
     TextView txtsname, txtsstart, txtsstop;
@@ -35,6 +36,7 @@ public class PlayerActivity extends AppCompatActivity {
     ArrayList<File> mySongs;
     Thread updateseekbar;
 
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==android.R.id.home)
@@ -43,7 +45,6 @@ public class PlayerActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,6 +127,7 @@ public class PlayerActivity extends AppCompatActivity {
 
             }
         });
+
 
         String endTime = createTime(mediaPlayer.getDuration());
         txtsstop.setText(endTime);
@@ -241,4 +243,5 @@ public class PlayerActivity extends AppCompatActivity {
 
         return  time;
     }
+
 }

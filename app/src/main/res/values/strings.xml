@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">AppAndroid</string>
-    <string name="song_1">Tên bài hát 1</string>
-    <string name="song_2">Tên bài hát 2</string>
+    <string name="song_1">001</string>
 </resources>
