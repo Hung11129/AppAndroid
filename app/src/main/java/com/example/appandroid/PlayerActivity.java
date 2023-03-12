@@ -36,7 +36,6 @@ public class PlayerActivity extends AppCompatActivity {
     ArrayList<File> mySongs;
     Thread updateseekbar;
 
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==android.R.id.home)
